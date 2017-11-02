@@ -25,6 +25,18 @@ organized? How would branches help?
 	Branches are good for testing out new features and also for taking chances
 	that you would not normally take :)
 
+	Start a new branch each time you start a new piece of work or start something
+	different. Think of it as context switching. Adding a new feature or fixing a 
+	bug create a new branch. Master branch is your production quality branch that
+	never breaks, always works. Then have a development branch where active work 
+	is taking place. Also have a creative experemental branch or new feature 
+	branches. New feature branches are where you are expecting code to go wrong
+	yet you are sharing it with the public in the understanding that things will
+	go wrong.
+
+	Branches also allow you to switch to work on diferent things as you wish.
+	
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
