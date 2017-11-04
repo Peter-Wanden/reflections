@@ -28,7 +28,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can stay fairly up to date with the on-line repository and its commits.
+    It also gives you a solid starting point when for you to start a local 
+    branch of changes ready for submission to the on-line repository.    
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
