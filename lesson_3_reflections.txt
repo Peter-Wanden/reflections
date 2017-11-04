@@ -28,14 +28,17 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    You can stay fairly up to date with the on-line repository and its commits.
-    It also gives you a solid starting point when for you to start a local 
-    branch of changes ready for submission to the on-line repository.    
+    Lesson 4: Section 19: Video @ 1:30. If there are differences between the 
+    local and remote repository you can use git fetch to update the local 
+    copy of the remote branches. You can then use git log and git diff to see
+    the differences before merging them with your local master branch. This is 
+    very handy especially if you are going to be off line for a while.   
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    It would be very hard to keep track of where everyone is withour GitHub 
+    (or a version control system)! I can't see that anything would be easier
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
