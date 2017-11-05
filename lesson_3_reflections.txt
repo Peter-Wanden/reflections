@@ -7,13 +7,13 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
     If someone else has been working on the project you'd want to ensure
-    thier changes will not conflict with yours
+    their changes will not conflict with yours
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
     A fork is where GitHub clones a repository. It is useful so that others 
-    can work on thier own versions of the code while keeping a reference back 
+    can work on their own versions of the code while keeping a reference back 
     to the original. Changes other people make to their fork do not affect 
     the original
     
@@ -21,8 +21,8 @@ use one instead of another?
     history.
         
     A branch is a label for a commit. Branches are useful for a host of reasons
-    such as colaberative working, bug fixing, feature testing etc. When work
-    on a branch is completed it is normally merged back eith the main production
+    such as collaborative working, bug fixing, feature testing etc. When work
+    on a branch is completed it is normally merged back with the main production
     branch which is normally called the master branch 
 
 What is the benefit of having a copy of the last known state of the remote
@@ -37,10 +37,13 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    It would be very hard to keep track of where everyone is withour GitHub 
+    It would be very hard to keep track of where everyone is without GitHub 
     (or a version control system)! I can't see that anything would be easier
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When working as part of a team it's a good idea for each team member to work
+    on their own branch. At regular intervals each team members work can then be
+    checked and merged into master (or another parallel branch called test) for 
+    testing and conflict resolution etc. 
